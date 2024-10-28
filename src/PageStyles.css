@@ -1,0 +1,161 @@
+.home-text {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-top: 40px;
+}
+
+.home-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 70px;
+}
+
+.page.news {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+  
+.news-item {
+    display: flex;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+.news-image {
+    width: 200px; 
+    height: auto;
+    margin-right: 70px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+
+.news-content {
+    flex: 1;
+    max-width: 640px; 
+}
+  
+.news-title {
+    font-size: 29px;
+    margin: 0 0 10px 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.news-text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.page_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: #f5f5dc;
+
+}
+  
+.login-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+  
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+    font-size: 16px;
+    outline: none;
+}
+  
+.login-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px; 
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.login-button:hover {
+    background-color: #555;
+}
+
+.login-error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.page.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative;
+}
+
+.profile-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-message h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-message p {
+    font-size: 16px;
+    color: #666;
+}
+
+.logout-button {
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #555;
+}
+
+
